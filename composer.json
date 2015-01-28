@@ -1,0 +1,23 @@
+{
+  "name": "tomk/imagehelper",
+  "description": "Class to help with image manipulation",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Tom Kay",
+      "email": "info@tomkay.me",
+      "homepage": "http://tomkay.me"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TomK\\ImageHelper\\": "src/"
+    }
+  }
+}
